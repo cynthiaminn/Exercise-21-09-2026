@@ -89,6 +89,6 @@ g12f <- yrbss |>
 ggplot(g12f, aes(x=BMI, y=Physically_Active_7d)) + 
   geom_point(colour='red') + 
   labs(x='BMI', y='Physically Active Days in the Last 7 Days', 
-       title='Physical Activity and BMI Among Grade 12 Female Students')
+       title='Physical Activity and BMI Among Grade 12 Female Students') 
 
 # Push your completed code to your GitHub repository
